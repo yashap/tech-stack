@@ -1,0 +1,31 @@
+{
+  "name": "tech-stack",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "4.x.x",
+    "eslint-plugin-jest": "21.7.x",
+    "eslint-plugin-react": "7.x.x",
+    "jest-expo": "24.x.x",
+    "react-native-scripts": "1.11.x",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "24.x.x",
+    "react": "16.0.0",
+    "react-native": "0.51.x",
+    "react-redux": "5.x.x",
+    "redux": "3.x.x"
+  }
+}
